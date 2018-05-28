@@ -1,14 +1,14 @@
 {
-  "name": "go-to-line",
-  "main": "./lib/go-to-line",
+  "name": "go-to-line-field",
+  "main": "./lib/go-to-line-field",
   "version": "0.0.0",
   "description": "Go to line block over gutter",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "go-to-line:toggle"
-  },
-  "repository": "https://github.com/atom/go-to-line",
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "repository": "https://github.com/atom/go-to-line-field",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

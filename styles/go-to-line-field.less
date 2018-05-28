@@ -1,0 +1,20 @@
+@import "ui-variables";
+
+.go-to-line-field {
+  background: @base-background-color;
+  position: absolute !important;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  input {
+    height: 100%;
+    background: inherit;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+        margin: 0;
+    }
+  }
+}
